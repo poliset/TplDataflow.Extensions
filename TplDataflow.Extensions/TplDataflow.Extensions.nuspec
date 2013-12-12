@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Adform.TplDataflow.Extensions</id>
+    <version>1.0.0-alpha</version>
+    <authors>Adform</authors>
+    <description>TPL Dataflow Extensions</description>
+    <dependencies>
+      <dependency id="Microsoft.Tpl.Dataflow" version="4.5" />
+      <dependency id="TransientFaultHandling.Core" version="5.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="TplDataflow.Extensions\bin\Release\Adform.TplDataflow.Extensions.dll" target="lib\net45" />
+  </files>
+</package>
