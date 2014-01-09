@@ -8,13 +8,13 @@
     <description>TPL Dataflow Extensions</description>
     <projectUrl>https://github.com/adform/TplDataflow.Extensions</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>TPL Task Dataflow Async</tags>
+    <tags>TPL Task Dataflow Async Extensions</tags>
     <dependencies>
       <dependency id="Microsoft.Tpl.Dataflow" version="4.5" />
       <dependency id="TransientFaultHandling.Core" version="5.1" />
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\TplDataflow.Extensions.dll" target="lib\net45" />
+    <file src="..\..\temp\TplDataflow.Extensions\TplDataflow.Extensions.dll" target="lib\net45" />
   </files>
 </package>
