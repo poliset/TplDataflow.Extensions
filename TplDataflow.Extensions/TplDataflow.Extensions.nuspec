@@ -4,13 +4,17 @@
     <id>Adform.TplDataflow.Extensions</id>
     <version>1.0.0-alpha</version>
     <authors>Adform</authors>
+    <owners>Sergejus Barinovas</owners>
     <description>TPL Dataflow Extensions</description>
+    <projectUrl>https://github.com/adform/TplDataflow.Extensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>TPL Task Dataflow Async</tags>
     <dependencies>
       <dependency id="Microsoft.Tpl.Dataflow" version="4.5" />
       <dependency id="TransientFaultHandling.Core" version="5.1" />
     </dependencies>
   </metadata>
   <files>
-    <file src="TplDataflow.Extensions\bin\Release\Adform.TplDataflow.Extensions.dll" target="lib\net45" />
+    <file src="bin\Release\TplDataflow.Extensions.dll" target="lib\net45" />
   </files>
 </package>
