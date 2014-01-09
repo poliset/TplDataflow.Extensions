@@ -1,7 +1,7 @@
-TplDataflow.Extensions
+TplDataflow.Extensions [![Build status](https://ci.appveyor.com/api/projects/status?id=g2883afb9a0kbqsa)](https://ci.appveyor.com/project/adform-tpldataflow-extensions)
 ======================
 
-Set of extensions for Microsoft TPL Dataflow library
+Set of extensions for [Microsoft TPL Dataflow](http://msdn.microsoft.com/en-us/library/hh228603(v=vs.110).aspx) library
 
 Available blocks:
 *  [SourceBlock](https://github.com/adform/TplDataflow.Extensions/blob/master/TplDataflow.Extensions/Blocks/SourceBlock.cs) - absract block that provides basic implementation of [ISourceBlock](http://msdn.microsoft.com/en-us/library/hh160369(v=vs.110\).aspx)
