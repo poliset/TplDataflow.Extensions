@@ -50,6 +50,8 @@ namespace Adform.TplDataflow.Extensions.Blocks
 
         public void Fault(Exception exception)
         {
+            _tokenSource.Cancel();
+
             _block.Fault(exception);
         }
 
